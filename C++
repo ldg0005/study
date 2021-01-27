@@ -1,0 +1,1 @@
+typeid(Type1) == typeid(Type2)
