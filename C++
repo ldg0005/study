@@ -1,1 +1,4 @@
 typeid(Type1) == typeid(Type2)
+
+
+ return new typename std::remove_pointer<decltype(this)>::type(__VA_ARGS__); 
