@@ -1,0 +1,12 @@
+class 선언 불필요
+인라인화 가능
+
+auto f1 = [](int a, int b) 
+{
+  return a + b;
+};
+
+std::sort(vct.begin(), vct.end(), [](double& r1, double& r2) -> bool
+{
+  return (r1 * r1) > (r2 * r2);
+});
